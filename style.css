@@ -1,0 +1,51 @@
+body {
+
+}
+ul.main {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  padding-right: 90px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+li:nth-child(4n-1){
+  background-color: red;
+}
+li:nth-child(4n-2){
+  background-color: green;
+}
+li:nth-child(4n-3){
+  background-color: silver;
+}
+li:nth-child(4n){
+  background-color: orange;
+}
+li:nth-last-child(-2n+2){
+  background-color: black;
+  color: white;
+}
+.more{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 20px;
+  background-color: gold;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  width: 220px;
+  top: 60px;
+}
+.dropdown ul li {
+  clear: both;
+  float: left;
+}
